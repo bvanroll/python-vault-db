@@ -4,8 +4,10 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="vault-db-bvanroll", # Replace with your own username
+    name="VaultDb", # Replace with your own username
     version="0.0.1",
+    version_config=True,
+    setup_requires=['setuptools-git-versioning'],
     author="Beppe Vanrolleghem",
     author_email="beppe.vanrolleghem@gmail.com",
     description="A vault creds reader for the vault database engine",
