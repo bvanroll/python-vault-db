@@ -7,6 +7,7 @@ setuptools.setup(
     name="vaultdb",
     version="0.0.1",
     version_config=True,
+    test_suite="test",
     setup_requires=['setuptools-git-versioning'],
     author="Beppe Vanrolleghem",
     author_email="beppe.vanrolleghem@gmail.com",
